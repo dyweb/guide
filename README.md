@@ -1,2 +1,0 @@
-# guide
-Document for dyweb.
