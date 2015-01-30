@@ -18,7 +18,8 @@
     (function() {
       var indexFile = (location.pathname.match(/\/(index[^\.]*\.html)/) || ['', ''])[1],
           rUrl = /(#!\/|api|guide|misc|tutorial|error|index[^\.]*\.html).*$/,
-          baseUrl = location.href.replace(rUrl, indexFile),
+          // baseUrl = location.href.replace(rUrl, indexFile),
+          baseUrl = location.href.substr(0, location.href.lastIndexOf('docs')) + 'docs/',
           production = location.hostname === 'docs.angularjs.org',
           headEl = document.getElementsByTagName('head')[0],
           sync = true;
