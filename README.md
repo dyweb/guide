@@ -4,6 +4,6 @@
 Document for dyweb.
 
 - JavaScript
-    + [AngularJS v1.3.0](http://dyweb.github.io/guide/docs/angularjs/docs/api)
+    + [AngularJS v1.3.0](http://dyweb.github.io/guide/docs/angularjs/docs/)
 - PHP
     + [CodeIgniter 3.0](http://dyweb.github.io/guide/docs/ci3/)
